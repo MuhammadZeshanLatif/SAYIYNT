@@ -1,0 +1,138 @@
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sideBar {
+  background-color: #015249;
+  width: 15%;
+  align-items: center;
+  padding-left: 2%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  /* Enable vertical scrolling for the sidebar content */
+}
+
+.mainBody {
+  margin-left: 15%;
+  /* Adjust the margin to the width of the sidebar */
+  flex-grow: 1;
+  background-color: rgb(243 243 243);
+
+}
+
+.sideBar p {
+  color: #ffff;
+  font-size: 25px;
+  margin-top: 8vh;
+  padding-left: 6%;
+}
+
+.cusTag {
+  align-items: center;
+  height: 8%;
+  width: 100%;
+  box-shadow: #c79d9d;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  font-size: large;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-left: 7vw;
+}
+
+.sideBtn {
+  margin-top: 10vh;
+  background-color: #043933 !important;
+  border: none !important;
+  width: 10vw;
+}
+
+.addCstmrBtn {
+  margin: 5vh 0 3vw 5vw;
+  background: linear-gradient(to left, #0b5a4a, #369172);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 400;
+  border: none !important;
+}
+
+.tableHeader {
+  background-color: #c5e3d6;
+  width: 80%;
+  height: 6vh;
+  border-radius: 5px;
+  margin-left: 5vw;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeader div {
+  margin-left: 6vw;
+}
+
+.tableHeader span {
+  color: #177e72;
+  font-weight: 700;
+  margin-left: 5vw;
+}
+
+.mainTable {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-weight: 400;
+  display: flex;
+  border-radius: 10px;
+  margin: 5vh 0 0 5vw;
+  width: 80%;
+  align-items: center;
+}
+
+.mainTable img {
+  border-radius: 5px;
+  width: 110px;
+  height: 110px;
+  margin: 5px;
+}
+
+.contant {
+  display: flex;
+  justify-content: space-evenly;
+  width: 65%;
+}
+
+.mainTable button {
+  margin: 0;
+}
+
+#editBtn {
+  background-color: #b0e1b7 !important;
+  color: #1f932f;
+  width: 70px;
+  height: 30px;
+  font-size: 13px;
+  border: none !important;
+}
+
+#deleteBtn {
+  background-color: #ef9999 !important;
+  color: #da0f0f;
+  width: 90px;
+  height: 30px;
+  font-size: 13px;
+  border: none !important;
+  margin-left: 20px;
+}
+.green_underline {
+  text-decoration: underline #1f932f;
+  color:#1f932f;
+}
